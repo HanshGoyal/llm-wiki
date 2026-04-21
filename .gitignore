@@ -1,0 +1,54 @@
+# LLM Wiki Template - Git Ignore
+# ===============================
+# IGNORED: raw/, wiki/ - Your personal content
+# TRACKED: Templates, schemas, config files
+
+# ---- PERSONAL CONTENT (Ignore) ----
+raw/
+wiki/*.md
+wiki/daily/*
+wiki/sources/*
+wiki/entities/*
+wiki/concepts/*
+wiki/analyses/*
+wiki/comparisons/*
+
+# ---- GIT DATA (Ignore) ----
+.git/
+
+# ---- OBSIDIAN (Ignore) ----
+.obsidian/
+
+# ---- SYSTEM FILES (Ignore) ----
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# ---- LARGE FILES (Ignore) ----
+*.mp4
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.gguf
+*.safetensors
+
+# ---- STRUCTURE TO KEEP (Track) ----
+!.gitignore
+!README.md
+!CLAUDE.md
+!schemas/
+!templates/
+!wiki/sources/.gitkeep
+!wiki/entities/.gitkeep
+!wiki/concepts/.gitkeep
+!wiki/analyses/.gitkeep
+!wiki/comparisons/.gitkeep
+!wiki/daily/.gitkeep
